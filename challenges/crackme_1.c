@@ -8,7 +8,6 @@ int main(){
 	int total_sum = 0;
 	int total_mul = 1;
 
-
 	printf("Enter passwd: ");
 	scanf("%s", string);
 
@@ -27,8 +26,6 @@ int main(){
 					printf("really close");
 				}
 			}else{
-				printf("%d\n", total_sum);
-				printf("%d", total_mul);
 				printf("Close");
 			}
 		}
